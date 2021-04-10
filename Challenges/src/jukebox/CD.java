@@ -4,9 +4,12 @@ import java.util.List;
 
 public class CD {
 
+    private String author;
     private List<Song> songs;
 
-    // more details about CDs
+    public String getAuthor() { return author; }
+
+    public void setAuthor(String author) { this.author = author; }
 
     public List<Song> getSongs() {
         return songs;
@@ -15,4 +18,6 @@ public class CD {
     public void setSongs(List<Song> songs) {
         this.songs = songs;
     }
+
+
 }
