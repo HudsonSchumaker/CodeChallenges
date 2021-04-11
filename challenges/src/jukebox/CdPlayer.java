@@ -14,8 +14,13 @@ public class CdPlayer implements Player {
         this.cds = cds;
     }
 
-    protected void addCD(CD cd) {}
-    protected void removeCD(CD cd) {}
+    protected void addCD(CD cd) {
+        cds.add(cd);
+    }
+
+    protected void removeCD(CD cd) {
+        cds.remove(cd);
+    }
 
     protected Playlist getPlaylist() {
         return playlist;
