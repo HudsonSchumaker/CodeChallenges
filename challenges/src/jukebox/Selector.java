@@ -1,9 +1,9 @@
 package jukebox;
 
 interface Selector {
-    public void nextSongBtn();
-    public void prevSongBtn();
-    public void addSongToPlaylistBtn(Song song);
-    public void removeSongFromPlaylistBtn(Song song);
-    public void shuffleBtn();
+    void nextSongBtn();
+    void prevSongBtn();
+    void addSongToPlaylistBtn(Song song);
+    void removeSongFromPlaylistBtn(Song song);
+    void shuffleBtn();
 }
