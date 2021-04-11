@@ -1,11 +1,12 @@
 package jukebox;
 
 import java.util.List;
+import java.util.Random;
 
 public class Playlist {
 
+    private int songIndex = 0;
     private Song song;
-
     private final List<Song> songs; // or Queue
 
     public Playlist(List<Song> songs) {
@@ -26,15 +27,16 @@ public class Playlist {
     }
 
     protected void shuffle() {
-
+        Random r = new Random();
+        r.nextInt(songs.size());
     }
 
     protected Song getNextSong() {
-        return null;
+        return songs.get(++songIndex);
     }
 
     protected Song getPrevSong() {
-        return null;
+        return songs.get(--songIndex);
     }
 
     protected Song getSong() {
