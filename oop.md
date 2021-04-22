@@ -22,9 +22,18 @@ Inheritance   <br>
 Polymorphism  <br>
  * Polymorphism means many forms
  * Polymorphism allows an object to behave differently in certain cases
+ * Polymorphism via method overloading (compile time)
+ * Polymorphism via method overrinding (runtime)
 
+Association
+ * Association defines the relation between two classes that are independent of one another
 
 Aggregation   <br>
+ * Aggregation is a special case of unidirectional association
+
 Composition   <br>
+ * Composite is a more restrictive case of aggregation
+
+
 
 
