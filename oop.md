@@ -6,6 +6,7 @@ Object       <br>
  * An object represents an instance of a class
 
 Class        <br>
+ * A class is a template or a blueprintfor crating objects <br>
  
 Abstraction  <br>
 Encapsulation<br>
