@@ -1,7 +1,7 @@
 # Solid
 
-S: Single Responsibilty Principle
-O: Open Closed Principle
-L: Liskov's Substitution Principle
-I: Interface Segregation Principle
-D: Dependency Inverion Principle
+S: Single Responsibilty Principle <br>
+O: Open Closed Principle          <br>
+L: Liskov's Substitution Principle<br>
+I: Interface Segregation Principle<br>
+D: Dependency Inverion Principle  <br>
