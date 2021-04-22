@@ -9,6 +9,9 @@ Class        <br>
  * A class is a template or a blueprintfor crating objects <br>
  
 Abstraction  <br>
+ * Abstraction is the conceptof exponsing to the user only those thing that are relevant to them and hiding the remainder of the details
+ * Abstraction is achieved in Java via abstract classes and interfaces
+ 
 Encapsulation<br>
 Inheritance  <br>
 Polymorphism <br>
