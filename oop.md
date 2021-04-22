@@ -1,4 +1,4 @@
-# Object Oriented Programing
+# Object Oriented Programming
 
 Object        <br>
  * An objcet is a real-world entity
